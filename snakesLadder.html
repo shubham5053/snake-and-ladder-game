@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./snakesLadder.css">
+</head>
+
+<body>
+    <svg height="500" width="500" style="position: fixed;">
+        <line x1="125" y1="475" x2="175" y2="375" style="stroke:rgb(13, 116, 18);stroke-width:7" />
+        <line x1="225" y1="425" x2="425" y2="225" style="stroke:rgb(13,116,18);stroke-width:7" />
+        <line x1="75" y1="275" x2="25" y2="75" style="stroke:rgb(13,116,18);stroke-width:7" />
+        <line x1="275" y1="175" x2="475" y2="25" style="stroke:rgb(13,116,18);stroke-width:7" />
+        <line x1="425" y1="125" x2="425" y2="375" style="stroke:rgb(160,28,28);stroke-width:7" />
+        <line x1="225" y1="275" x2="25" y2="425" style="stroke:rgb(160,28,28);stroke-width:7" />
+        <line x1="175" y1="125" x2="320" y2="475" style="stroke:rgb(160,28,28);stroke-width:7" />
+    </svg>
+    <section></section>
+    <div class="btn">
+        <div class="roll-btn">
+            <button id="player1" class onclick="player1()">player 1</button> &nbsp; : &nbsp; <span id="number"></span>
+            <button id="player2" style="margin-left:280px" class onclick="player2()">player 2</button> &nbsp; : &nbsp;
+            <span id="number1"></span>
+        </div>
+        <div>
+            <div class="snake"></div> =<span>snakes</span>
+            <div class="ladder"></div> =<span>ladder</span>
+        </div>
+    </div>
+
+</body>
+<script src="./snakesladder.js">
+</script>
+
+</html>
